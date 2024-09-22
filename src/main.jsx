@@ -9,6 +9,7 @@ import ListedBooks from './components/ListedBooks/ListedBooks.jsx'
 import PageToRead from './components/PageToRead/PageToRead.jsx'
 
 import './index.css'
+import BookDetails from './components/BookDetails/BookDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/page-to-read",
         element: <PageToRead></PageToRead>
+      },
+      {
+        path: "/book/:bookId",
+        element: <BookDetails></BookDetails>
       }
     ]
   }

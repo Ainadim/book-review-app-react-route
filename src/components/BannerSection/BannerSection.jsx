@@ -5,7 +5,7 @@ import heroImage from "../../assets/Hero.png"
 const HeroSection = props => {
     return (
         <div>
-            <div className="hero bg-base-200 min-h-full py-20 mb-24">
+            <div className="hero bg-base-200 min-h-full py-20 mb-24 rounded-xl">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src={heroImage}

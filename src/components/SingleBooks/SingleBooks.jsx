@@ -19,6 +19,7 @@ const SingleBooks = props => {
                 {
                     book.map((book, idx) => <HomeBookList key={idx} bookList={book}></HomeBookList>)
                 }
+                
             </div>
         </div>
     );

@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import BannerSection from '../BannerSection/BannerSection';
-import AllBooks from '../AllBooks/AllBooks';
-import HomeBookList from '../HomeBookList/HomeBookList';
-
+import SingleBooks from '../SingleBooks/SingleBooks';
+import HeaderTItle from '../HeaderTItle/HeaderTItle';
 const Home = props => {
     return (
-        <div>
+        <div className='my-10'>
             <BannerSection></BannerSection>
-            <AllBooks></AllBooks>
-            {/* <HomeBookList></HomeBookList> */}
-
+            <HeaderTItle></HeaderTItle>
+            <SingleBooks></SingleBooks>
         </div>
     );
 };
