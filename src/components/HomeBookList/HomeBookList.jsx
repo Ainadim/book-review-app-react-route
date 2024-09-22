@@ -8,13 +8,9 @@ const HomeBookList = ({ bookList }) => {
         bookName,
         author,
         image,
-        review,
-        totalPages,
         rating,
         category,
-        tags,
-        publisher,
-        yearOfPublishing } = bookList
+        tags } = bookList
     return (
         <div>
             <Link to={`/book/${bookId}`}>

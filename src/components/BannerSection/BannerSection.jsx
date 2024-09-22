@@ -9,11 +9,11 @@ const HeroSection = props => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src={heroImage}
-                        className="max-w-sm rounded-lg shadow-2xl" />
+                        className="max-w-sm rounded-lg" />
                     <div className='mx-28'>
-                        <h1 className="text-5xl font-bold mb-10">Box Office News!</h1>
+                        <h1 className="text-5xl font-bold mb-10">Books to freshen up your bookshelf</h1>
 
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn btn-primary">View The List</button>
                     </div>
                 </div>
             </div>
